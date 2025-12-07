@@ -2,9 +2,9 @@ import { useState } from "react";
 import "./App.css";
 import TodoItem from "./components/TodoItem";
 import { dummyData } from "./data/todos";
-//import AddTodoForm from "./components/AddTodoForm";
-//import TodoList from "./components/TodoList";
-//import TodoSummary from "./components/TodoSummary";
+import AddTodoForm from "./components/AddTodoForm";
+import TodoList from "./components/TodoList";
+import TodoSummary from "./components/TodoSummary";
 
 function App() {
   const [todos, setTodos] = useState(dummyData);
